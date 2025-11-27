@@ -1,3 +1,5 @@
 .categories__cards span {
     color:white !important;
+    font-size:.8rem;
+    font-weight:bolder;
 }
