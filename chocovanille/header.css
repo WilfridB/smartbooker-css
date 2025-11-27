@@ -1,3 +1,6 @@
 .main-header-sb{
     padding-bottom:10px !important;
 }
+.csb__site-header__menu{
+    border-radius: 20px !important;
+}
