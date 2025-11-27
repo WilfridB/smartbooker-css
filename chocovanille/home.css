@@ -1,0 +1,75 @@
+/* Bouton interne */
+.custom-shop-card .v-btn {
+    background-color: #f6cce0 !important;
+    color: black !important;
+    border-radius: 50px !important;
+    padding: 0.6em 1.2em !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    transition: transform 0.2s ease, background-color 0.2s ease !important;
+
+}
+
+.custom-shop-card .v-btn:hover {
+    background-color: #f2b9d6 !important; /* hover léger */
+    transform: translateY(-2px) !important;
+}
+
+
+/* Titre dans les groupements */
+.custom-groupement-card .text-center h2 {
+    margin-top: 10px !important;
+    border-bottom: 1px solid #303030 !important;
+}
+.csb__site-header__menu {
+    background-color: #f5cce1 !important;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.csb__site-header__menu .homeNavRounded nav{
+
+    font-weight:bolder !important;
+}
+
+
+/* =========================
+   Carte CTA personnalisée
+   ========================= */
+div[class*=route-index] .custom-shop-card {
+    font-size: 1rem !important;
+    color: black !important;
+
+    /* Couleur principale #f6cce0 */
+    background-color: #f6cce0 !important;
+    border-color: #f6cce0 !important;
+
+    border-radius: 12px !important;
+    text-align: left !important;
+    padding: 1.2em !important;
+    position: relative !important;
+    overflow: hidden !important;
+
+    /* Image haute gauche */
+    background-image: url("https://new-smartbooker-storage-api.services.smartbooker.fr/uploads/chocovanille_eqkt/17641685147950.5c3edh6e5p8.png.png") !important;
+    background-size: 100px 100px !important;
+    background-position: 100% 100% !important;
+    background-repeat: no-repeat !important;
+
+    /* Texte décalé */
+
+
+    /* Effets */
+    cursor: pointer !important;
+    transition: transform 0.22s ease,
+    box-shadow 0.22s ease,
+    background-color 0.22s ease !important;
+}
+
+div[class*=route-index] .custom-shop-card:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22) !important;
+
+    /* Hover doux et cohérent */
+    background-color: #f2b9d6 !important;  /* plus foncé que #f6cce0 */
+}
