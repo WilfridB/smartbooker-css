@@ -3,7 +3,7 @@
     color: white !important;
     font-size: .8rem !important;
     font-weight: bolder !important;
-
+    padding: .5rem !important;
     /* Ellipsis */
     white-space: nowrap !important;
     overflow: hidden !important;
