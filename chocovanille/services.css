@@ -3,11 +3,10 @@
     color: white !important;
     font-size: .8rem !important;
     font-weight: bolder !important;
-    padding: .5rem !important;
-    /* Ellipsis */
-    white-space: nowrap !important;
+
+    /* Multi-line ellipsis (2 lignes) */
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 2 !important;
     overflow: hidden !important;
-    text-overflow: ellipsis !important;
-    display: block !important;   /* ou inline-block selon ton layout */
-    max-width: 100% !important;   /* indispensable pour l'effet */
 }
