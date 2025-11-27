@@ -1,5 +1,12 @@
 .categories__cards span {
-    color:white !important;
-    font-size:.8rem;
-    font-weight:bolder;
+    color: white !important;
+    font-size: .8rem !important;
+    font-weight: bolder !important;
+
+    /* Ellipsis */
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: block !important;   /* ou inline-block selon ton layout */
+    max-width: 100% !important;   /* indispensable pour l'effet */
 }
