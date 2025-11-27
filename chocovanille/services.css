@@ -10,3 +10,49 @@
     -webkit-line-clamp: 2 !important;
     overflow: hidden !important;
 }
+.custom-add-service button {
+    background-color: pink !important;
+}
+.custom-add-service button span {
+    color:black !important;
+    font-weight:bolder !important;
+}
+.custom-add-service button i {
+    color:black !important;
+}
+.last-visit .shop-img {
+    display:none !important;
+}
+.custom-shop-card .shop-img{
+    display:none !important;
+}
+.custom-shop-card .shop-btn{
+    justify-content:flex-end !important;
+}
+.custom-shop-categories .roll-carousel-global-content {
+    margin-bottom:10px !important;
+}
+.custom-shop-categories .roll-carousel-filter{
+    background:transparent !important;
+}
+.custom-shop-categories .servcat-simply-theme-card {
+    height:100% !important;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+.custom-shop-categories .servcat-simply-theme-card .v-image {
+    min-height:200px;
+    max-height:200px
+
+
+}
+.custom-shop-categories .h3-roll-carousel{
+    background-color: white !important;
+    color: black;
+    padding:10px;
+}
+.custom-shop-categories .v-card__subtitle {
+    display:none !important;
+}
